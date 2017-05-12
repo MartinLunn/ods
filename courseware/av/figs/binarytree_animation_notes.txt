@@ -1,0 +1,5 @@
+Tree1_HL_5 -> might need grandparent grandchild labels and arrows
+would it be better to summarize undirected edges, instead of two directed edges, as one bidirectional edge?
+maybe flip and actual tree
+view 15-16
+maybe ultrafat for the line highlighting, and add the arrows to the highlight?

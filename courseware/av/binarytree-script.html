@@ -1,0 +1,271 @@
+<html>
+<head>
+<style type="text/css">
+  body {
+    margin: 1em auto 1em auto;
+    max-width: 55ex;
+  }
+  div.pause {
+    margin: 1em;
+    color: red;
+  }
+  div.pause:before {
+    content: "Pause ";
+  }
+  div.pause:after {
+    content: "s";
+  }
+</style>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { availableFonts: ["TeX"] }
+  });
+</script>
+<script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+</head>
+
+<body>
+
+Binary trees encompass a family of recursive data structures and lay the foundation for more complex trees.
+
+<div class="pause">breath</div>
+
+<!-- node -->
+The basic building block of a Binary Tree is a <em>node</em>. Each node has three pointers to other nodes: a $\mathtt{left \quad child}$, a $\mathtt{right \quad child}$, and a $\mathtt{parent}$.
+
+<div class="pause">breath</div>
+
+Binary trees are like family trees: $\mathtt{a}$ is the <em>parent</em> of $\mathtt{b}$, and $\mathtt{b}$ is the left <em>child</em> of $\mathtt{a}$. $\mathtt{a}$ is also $\mathtt{c}$'s parent, but $\mathtt{c}$ is the <em>right</em> child of $\mathtt{a}$.
+
+<div class="pause">1</div>
+
+<!-- simple tree -->
+Other familial relations hold: $\mathtt{a}$ is $\mathtt{d}$'s <em>grandparent</em>, and $\mathtt{d}$ is $\mathtt{a}$'s <em>grandchild</em>.
+$\mathtt{a}$'s <em>descendants</em> are $\mathtt{a}$'s children, and their children, and so on, and $\mathtt{e}$'s <em>ancestors</em> are $\mathtt{e}$'s parent, and their parent, and so on.
+
+<div class="pause">1</div>
+
+Another metaphor for a binary tree is a tree like one in a forest; but the tree is <em>upside down</em>. In computer science, the <em>root</em> of the tree is drawn at the top, and the <em>leaves<em/> are at the bottom.
+
+<div class="pause">breath</div>
+
+The <em>root</em> of the tree is special, it has no parent. The <em>leaves</em> are also special, they have no children.
+<!-- should I include the below?-->
+<!-- However, there is a wrinkle. Because the leaves are nodes, and <em>every</em> node has two children pointers, we can think of the leaves’ children not part of the tree, or external nodes.-->
+
+<div class="pause">1</div>
+
+<!-- tree stuff -->
+The tree itself consists of <em>just the root</em>. A single node is a valid tree.
+
+<div class="pause">breath</div>
+
+<!-- ??? -->
+The <em>subtree</em> of a node $\mathtt{u}$ is a tree consisting of $\mathtt{u}$ and $\mathtt{u}$ descendants. The root of this tree is $\mathtt{u}$.
+
+<div class="pause">breath</div>
+
+<!-- grey out stuff and change root ptr-->
+The subtree of the node $\mathtt{c}$ looks like this. The subtree of the node $\mathtt{d}$ is just $\mathtt{d}$.
+
+<div class="pause">1</div>
+
+The <em>size</em> of a tree is the number of nodes in the tree. For example, this tree's size is 7.
+
+<div class="pause">breath</div>
+
+Nodes point to other nodes of in a recursive manner, and we can mirror this with recursive algorithms.
+<!-- can't decide between these three
+Because nodes point to other nodes of identical structure, this recursiveness can be mirrored in algorithms.
+
+Because the nodes of a binary tree point to other nodes identical to themselves, this recursive structure makes it natural to use recursive algorithms.-->
+
+<div class="pause">1</div>
+
+<!-- piecewise recursive size algorithm/function -->
+<!-- this is code...or math code, or pseudocode, what should the formatting be? This is a little clunky.-->
+For example, a recursive algorithm for size of a binary tree rooted at a node $\mathtt{u}$ would:
+if $\mathtt{u}$ is $\mathtt{\O}$ return $\mathtt{0}$,
+otherwise return size($\mathtt{left \quad child \quad of \quad u}$) + size($\mathtt{left \quad child \quad of \quad u}$) + 1
+
+<div class="pause">1</div>
+
+The <em>height</em> of a node is the distance in pointer hops to its farthest descendant.
+
+<div class="pause">breath</div>
+
+The height of a leaf is always 0. The height of $\mathtt{c}$ is 1.
+
+<div class="pause">breath</div>
+
+The height of a <em>tree</em> is the height of its root. The height of this tree is 2. It would be natural to use recursion to compute this as well.
+
+<div class="pause">1</div>
+
+The depth of a node is the distane between it and the root. The depth of the root is always 0, and the depth of $\mathtt{b}$ is 1.
+
+<div class="pause">breath</div>
+
+<!-- clunky-->
+It would also be natural to compute depth recursively, but a major flaw with recursion is the prohibitive amount of function call stack space required when making a function call for each node, when the tree is big.
+
+<div class="pause">breath</div>
+
+The function call stack has some maximum depth, and if the number of function calls exceeds this, the program will crash. Its generally safer to use an iterative solution.
+
+<div class="pause">1</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pause">1</div>
+
+Most of the work required in implementing the List operations comes from finding the node in a DLList that has a specific index, $i$.  This is done by a helper function called getNode(i).
+
+<div class="pause">1</div>
+
+To get the $i$th node in a DLList, we first check if the $i$th node is in the first or second half of the list by comparing $i$ to $n/2$.
+
+<div class="pause">1</div>
+
+If $i< n/2$, then the $i$th node is in the first half of the list, and we can get to it by starting at the dummy and following $i+1$ next pointers.
+
+<div class="pause">4</div>
+
+If $i \ge n/2$, then the $i$th node is in the second half of the list, and we can get to it by starting at the dummy and following $n-i$ prev pointers.
+
+<div class="pause">4</div>
+
+Putting all this together, this means that we can get to the $i$th node in a DLList by following the minimum of $i+1$ or $n-i$ pointers.
+
+<div class="pause">2</div>
+
+This means that the getNode(i) function runs in $O(1+\min\{i, n-i\})$ time.
+It takes at least constant time, plus time proportional to the minimum
+of $i$ and $n-i$.
+
+<div class="pause">2</div>
+
+With the getNode(i) function, getting and setting values in a DLList becomes easy.
+
+
+<div class="pause">2</div>
+
+To get the $i$th value in a DLList we just get the $i$th node and return its value.
+
+<div class="pause">1</div>
+
+This takes only constant time, once we've found the $i$th list node.
+
+<div class="pause">2</div>
+
+To set the $i$th value in a DLList we just get the $i$th node and set its value.
+
+<div class="pause">1</div>
+
+Again, this takes only constant time, once we've found the $i$th list node.
+
+<div class="pause">2</div>
+
+Adding and removing from a DLList is also fairly easy, but requires some
+careful pointer manipulations to get everything working just right.
+
+<div class="pause">2</div>
+
+To add a new value to a DLList at position $i$, we first create a new
+node, $u$, that contains the value we want to add.
+
+<div class="pause">2</div>
+
+Next, we use the getNode function to find the node, $w$, currently at position $i$.
+
+<div class="pause">2</div>
+
+Now we have to set four pointers to splice the new node into the list:
+Two of these pointers are in the new node, $u$,.  One pointer is
+$w$'s prev pointer and the last pointer is in the node that appears
+before $w$.
+
+<div class="pause">1</div>
+
+These pointer changes only require four lines of code, but it's easy to
+get them wrong.
+
+<div class="pause">2</div>
+
+Finally, we increment the value $n$, since the list now contains one
+more value than before.  Note that adding the new node $u$ to the list
+implicitly changes the indices of all the nodes that come after $u$.
+
+<div class="pause">2</div>
+
+As with the other DLList operations, add(i,x) only takes constant time
+once we've we've used getNode(i) to find the $i$th node in the list.
+
+<div class="pause">1</div>
+
+Removing the $i$th value from a DLList is a bit easier. We first use
+the getNode(i) function to find the $i$th list node, $u$.
+
+<div class="pause">1</div>
+
+Next, we update two pointers to splice $u$ out of the list.  One pointer
+is in the node preceding $u$ and the other is the node that comes
+after $u$.
+
+<div class="pause">3</div>
+
+If we're working in a programming language that requires explicitly freeing memory then we should now free the space allocated to node $u$.
+
+<div class="pause">3</div>
+
+Finally, we decrement the value of $n$, since the list now contains one less value.  Note that removing the node $u$ has the side-effect of implicitly changing the indices of all the nodes that came after $u$.
+
+<div class="pause">3</div>
+
+Again, the remove(i) operation only takes constant time
+once we've used getNode(i) to find the $i$th node in the list.
+
+<div class="pause">4</div>
+
+To summarize:  A DLList implmements the List interface so that each of the operations get(i), set(i,x), add(i,x), and remove(i) runs in time $O(1+min\{i,n-i\})$.
+
+When we specialize this to the Deque interface, each of the operations addFront(), addBack(), removeFront(), adn removeBack() runs in constant time.
+
+<div class="pause">10</div>
+
+
+</body>
+</html>
