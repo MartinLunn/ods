@@ -1,5 +1,6 @@
 \documentclass[aspectratio=169,xcolor=dvipsnames]{beamer}
 \usepackage{ods,ods-figs}
+\usepackage{amsmath}
 
 \title{Binary Tree}
 \author{Open Data Structures}
@@ -16,15 +17,22 @@
   \framesubtitle{A recursive diverging graph}
 
   \begin{center}
-    \multiinclude[<+>][format=pdf,start=1]{figs/binarytree}
+    \multiinclude[<+>][format=pdf,start=1]{figs/binarytree-i}
+%    \multiinclude[<0-26>][format=pdf,start=1]{figs/binarytree-i}
   \end{center}
-
-
 \end{frame}
 
-\iffalse
-more stuff here
-\fi
+\begin{frame}
+  \frametitle{Binary Tree}
+  \framesubtitle{Size of a Tree}
+
+  \begin{block}{Algorithm for Size}
+  $\mathtt{size(r)} = \begin{cases}$
+  $0 \qquad &if\  r = null \\$
+  $\mathtt{size}(r's\ left\ child) + \mathtt{size}(r's\  right\ child) + 1 &otherwise$
+  $\end{cases}$
+  \end{block}
+\end{frame}
 
 \closing
 
