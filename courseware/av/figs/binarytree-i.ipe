@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE ipe SYSTEM "ipe.dtd">
 <ipe version="70206" creator="Ipe 7.2.7">
-<info created="D:20170504132942" modified="D:20170515145526"/>
+<info created="D:20170504132942" modified="D:20170519133645"/>
 <preamble>\usepackage{ods-figs}
 \usepackage{amsmath}</preamble>
 <bitmap id="1" width="150" height="125" length="3389" ColorSpace="DeviceRGB" Filter="FlateDecode" BitsPerComponent="8" encoding="base64">
@@ -377,6 +377,7 @@ h
 <layer name="Tree1_HL_3"/>
 <layer name="Tree1_HL_4"/>
 <layer name="Tree1_HL_5"/>
+<layer name="Tree1_HL_5.5"/>
 <layer name="Tree1_HL_6"/>
 <layer name="Tree1_HL_7"/>
 <layer name="Tree1_HL_7a"/>
@@ -395,6 +396,10 @@ h
 <layer name="Tree1_subtree_label_2"/>
 <layer name="Tree1_subtree_root_ptr_2"/>
 <layer name="Tree1_size_algorithm"/>
+<layer name="Tree1_size_a"/>
+<layer name="Tree1_size_a_sub"/>
+<layer name="Tree1_size_b_subbed"/>
+<layer name="Tree1_size_c_subbed"/>
 <layer name="Tree_1_size_labels"/>
 <layer name="Tree1_height_label_D"/>
 <layer name="Tree1_height_label_C"/>
@@ -403,6 +408,7 @@ h
 <layer name="Tree1_height_measurement_tree1"/>
 <layer name="Tree1_depth_label_r"/>
 <layer name="Tree1_depth_label_b"/>
+<layer name="beta"/>
 <view layers="Node Node_Label" active="Node"/>
 <view layers="Node Node_Label Node_Parent_Divisions Node_Parent_Marks Node_Lchild_Rchild_Label Node_Parent" active="Node_Pointer_Arrows"/>
 <view layers="Node Node_Label Node_Parent_Divisions Node_Parent_Marks Node_Lchild_Rchild_Label Node_Parent Node_Pointer_Arrows" active="Node_Pointer_Arrows"/>
@@ -412,6 +418,7 @@ h
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_3" active="Tree1_HL_3"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_4" active="Tree1_HL_4"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_5" active="Tree1_HL_5"/>
+<view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_5.5" active="Tree1_HL_5.5"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_6" active="Tree1_HL_6"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_7" active="Tree1_HL_7"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_HL_7 Tree1_HL_7a" active="Tree1_HL_7a"/>
@@ -430,6 +437,10 @@ h
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_subtree_label_2" active="Tree1_subtree_label_2"/>
 <view layers="Tree1_node_d Tree1_label_d Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_subtree_label_2 Tree1_subtree_root_ptr_2" active="Tree1_subtree_root_ptr_2"/>
 <view layers="Tree1_size_algorithm" active="Tree1_size_algorithm"/>
+<view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_size_a" active="Tree1_size_a"/>
+<view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_size_a_sub" active="Tree1_size_a_sub"/>
+<view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_size_b_subbed" active="Tree1_size_b_subbed"/>
+<view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_size_c_subbed" active="Tree1_size_c_subbed"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree_1_size_labels" active="Tree_1_size_labels"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_height_label_D" active="Tree1_height_label_D"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_height_label_C" active="Tree1_height_label_C"/>
@@ -438,6 +449,127 @@ h
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_height_label_tree1 Tree1_height_measurement_tree1" active="Tree1_height_measurement_tree1"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_depth_label_r" active="Tree1_depth_label_r"/>
 <view layers="Tree1_Node_a Tree1_Node_a_Pointers Tree1_Node_b Tree1_Node_c Tree1_node_b_ptrs Tree1_node_c_ptrs Tree1_node_d Tree1_Node_e Tree1_Node_f Tree1_Node_g Tree1_label_a Tree1_label_b Tree1_label_c Tree1_label_d Tree1_label_e Tree1_label_f Tree1_label_g Tree1_Binary_Tree_Label Tree1_binarytree_root_box_label_ptr Tree1_Root_ptr Tree1_depth_label_b" active="Tree1_depth_label_b"/>
+<view layers="beta" active="beta"/>
+<path layer="Tree1_size_b_subbed" matrix="1 0 0 1 0 -64" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_size_c_subbed" matrix="1 0 0 1 32 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -32 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -80 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -144 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 0 -64" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -112 -64" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -56 -32" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_size_b_subbed" matrix="1 0 0 1 -80 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -144 -96" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -112 -64" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -56 -32" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_size_a_sub" matrix="1 0 0 1 0 -64" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -112 -64" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -56 -32" stroke="red" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_size_a" matrix="1 0 0 1 -56 -32" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_depth_label_b" matrix="1 0 0 1 -111.999 -63.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_depth_label_r" matrix="1 0 0 1 -56 -32" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_subtree_root_ptr_2" stroke="gold" pen="ultrafat">
+278.273 215.23 m
+304 232
+284 272 c
+</path>
+<path layer="Tree1_subtree_root_ptr" stroke="gold" pen="ultrafat">
+392 240 m
+284 272 l
+284 272 l
+</path>
+<path layer="Tree1_external_nodes" matrix="1 0 0 1 -120 -31.9999" stroke="gold" pen="ultrafat">
+396 224 m
+390.519 233.481 l
+</path>
+<path matrix="1 0 0 1 -56 -31.9999" stroke="gold" pen="ultrafat">
+396 224 m
+390.519 233.481 l
+</path>
+<path matrix="1 0 0 1 -8 -31.9999" stroke="gold" pen="ultrafat">
+396 224 m
+390.519 233.481 l
+</path>
+<path matrix="1 0 0 1 56 -31.9999" stroke="gold" pen="ultrafat">
+396 224 m
+390.519 233.481 l
+</path>
+<path matrix="1 0 0 1 55.978 -32.0219" stroke="gold" pen="ultrafat">
+372 224 m
+377.503 233.503 l
+</path>
+<path matrix="1 0 0 1 -8.022 -32.0219" stroke="gold" pen="ultrafat">
+372 224 m
+377.503 233.503 l
+</path>
+<path matrix="1 0 0 1 -56.022 -32.0219" stroke="gold" pen="ultrafat">
+372 224 m
+377.503 233.503 l
+</path>
+<path matrix="1 0 0 1 -120.022 -32.0219" stroke="gold" pen="ultrafat">
+372 224 m
+377.503 233.503 l
+</path>
+<path layer="Tree1_HL_5.5" matrix="1 0 0 1 -143.999 -95.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -55.999 -31.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_HL_6" matrix="1 0 0 1 -143.999 -95.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 32.001 -95.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -31.999 -95.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 0.001 -63.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -111.999 -63.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
+<path matrix="1 0 0 1 -79.999 -95.731" stroke="gold" pen="ultrafat">
+16 0 0 16 408 304 e
+</path>
 <path layer="Tree1_height_label_tree1" matrix="1 0 0 1 -56 -32" stroke="gold" pen="ultrafat">
 16 0 0 16 408 304 e
 </path>
@@ -495,7 +627,7 @@ h
 372 224 m
 377.503 233.503 l
 </path>
-<path layer="Tree1_root_parent_ptr" stroke="gold" pen="fat">
+<path layer="Tree1_root_parent_ptr" stroke="gold" pen="ultrafat">
 352 296 m
 352 280 l
 </path>
@@ -544,7 +676,7 @@ h
 <path matrix="1 0 0 1 -56 -32" stroke="gold" pen="ultrafat">
 16 0 0 16 408 304 e
 </path>
-<path layer="Tree1_HL_3" matrix="-1 0 0 1 703.978 0.022" stroke="gold" pen="fat">
+<path layer="Tree1_HL_3" matrix="-1 0 0 1 703.978 0.022" stroke="gold" pen="ultrafat">
 296 248 m
 327.07 252
 341.641 259.806 c
@@ -558,7 +690,7 @@ h
 <path layer="Tree1_HL_4" stroke="gold" pen="ultrafat">
 16 0 0 16 408 240 e
 </path>
-<path matrix="-1 0 0 1 703.978 0.022" stroke="gold" pen="fat">
+<path matrix="-1 0 0 1 703.978 0.022" stroke="gold" pen="ultrafat">
 345.481 265.481 m
 319.303 260
 305.23 253.069 c
@@ -569,7 +701,7 @@ h
 <path layer="Tree1_HL_1" stroke="gold" pen="ultrafat">
 16 0 0 16 352 272 e
 </path>
-<path stroke="gold" pen="fat">
+<path stroke="gold" pen="ultrafat">
 296 248 m
 327.07 252
 341.641 259.806 c
@@ -580,7 +712,7 @@ h
 <path layer="Tree1_HL_2" stroke="gold" pen="ultrafat">
 15.731 0 0 15.731 296.001 240.269 e
 </path>
-<path stroke="gold" pen="fat">
+<path stroke="gold" pen="ultrafat">
 345.481 265.481 m
 319.303 260
 305.23 253.069 c
@@ -829,10 +961,7 @@ h
 332 260
 326.328 254.695 c
 </path>
-<path layer="Tree1_Node_a" matrix="1 0 0 1 -56 -32" stroke="black">
-16 0 0 16 408 304 e
-</path>
-<path stroke="black">
+<path layer="Tree1_Node_a" stroke="black">
 336 272 m
 368 272 l
 352 272 l
@@ -1105,20 +1234,20 @@ h
 </path>
 <image layer="Tree1_Tree_pic" matrix="1 0 0 1 -48 16" rect="325 162.5 475 287.5" bitmap="1"/>
 <image layer="Tree1_Tree_pic_upside_down" matrix="-1 0 0 -1 752 466" rect="325 162.5 475 287.5" bitmap="1"/>
-<text layer="Tree1_size_algorithm" matrix="1 0 0 1 16 -32" transformations="translations" pos="336 256" stroke="black" type="label" width="313.319" height="17.428" depth="12.46" halign="center" valign="baseline">$\mathtt{size(r)} = \begin{cases}$
+<text layer="Tree1_size_algorithm" matrix="1 0 0 1 16 -32" transformations="translations" pos="336 256" stroke="black" type="label" width="313.319" height="17.428" depth="12.46" halign="center" valign="baseline" style="math">\mathtt{size(r)} = \begin{cases}$
 $0 \qquad &amp;if\  r = null \\$
 
 $\mathtt{size}(r&apos;s\ left\ child) + \mathtt{size}(r&apos;s\  right\ child) + 1 &amp;otherwise$
-$\end{cases}$</text>
-<text layer="Tree_1_size_labels" matrix="1 0 0 1 0 6" transformations="translations" pos="352 240" stroke="black" type="label" width="4.981" height="6.531" depth="0" halign="center" valign="baseline">1</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="288 208" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">2</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="400 208" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">3</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="256 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">4</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="320 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">5</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="368 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">6</text>
-<text matrix="1 0 0 1 5 6" transformations="translations" pos="432 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">7</text>
+$\end{cases}</text>
+<text layer="Tree_1_size_labels" matrix="1 0 0 1 8 6" transformations="translations" pos="352 240" stroke="black" type="label" width="4.981" height="6.531" depth="0" halign="center" valign="baseline">1</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="288 208" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">2</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="400 208" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">3</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="256 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">4</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="320 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">5</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="368 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">6</text>
+<text matrix="1 0 0 1 13 6" transformations="translations" pos="432 176" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">7</text>
 <text matrix="1 0 0 1 -7 -4" transformations="translations" pos="384 288" stroke="black" type="label" width="54.739" height="7.473" depth="2.49" valign="baseline">$\mathtt{size}(r) = 7$ </text>
-<text layer="Tree1_height_label_D" matrix="1 0 0 1 0 -16" transformations="translations" pos="384 288" stroke="black" type="label" width="65.343" height="7.473" depth="2.49" valign="baseline">$\mathtt{height}(D) = 0$</text>
+<text layer="Tree1_height_label_D" matrix="1 0 0 1 0 -16" transformations="translations" pos="384 288" stroke="black" type="label" width="65.343" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{height}(D) = 0</text>
 <text layer="Tree1_height_label_C" matrix="1 0 0 1 0 -16" transformations="translations" pos="384 288" stroke="black" type="label" width="64.954" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{height}(C) = 1</text>
 <text layer="Tree1_height_label_tree1" matrix="1 0 0 1 0 -16" transformations="translations" pos="384 288" stroke="black" type="label" width="61.879" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{height}(r) = 2</text>
 <path layer="Tree1_height_measurement_C" stroke="black">
@@ -1149,8 +1278,8 @@ $\end{cases}$</text>
 352 240 l
 </path>
 <text matrix="1 0 0 1 0 -8" transformations="translations" pos="356 232" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">2</text>
-<text layer="Tree1_depth_label_r" transformations="translations" pos="384 272" stroke="black" type="label" width="56.649" height="7.473" depth="2.49" valign="baseline">$\mathtt{depth}(r) = 0$</text>
-<text layer="Tree1_depth_label_b" transformations="translations" pos="384 272" stroke="black" type="label" width="57.617" height="7.473" depth="2.49" valign="baseline">$\mathtt{depth}(b) = 1$</text>
+<text layer="Tree1_depth_label_r" transformations="translations" pos="384 272" stroke="black" type="label" width="56.649" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{depth}(r) = 0</text>
+<text layer="Tree1_depth_label_b" transformations="translations" pos="384 272" stroke="black" type="label" width="57.617" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{depth}(b) = 1</text>
 <path stroke="black">
 268 288 m
 260 288 l
@@ -1164,5 +1293,54 @@ $\end{cases}$</text>
 264 228 l
 </path>
 <text matrix="1 0 0 1 0 -4" transformations="translations" pos="268 256" stroke="black" type="label" width="4.981" height="6.531" depth="0" valign="baseline">1</text>
+<path layer="Tree1_HL_5.5" stroke="gold" pen="ultrafat" arrow="pointed/tiny">
+264 224 m
+280 268
+336 272 c
+</path>
+<path layer="Tree1_HL_5" stroke="gold" pen="ultrafat" arrow="pointed/tiny">
+341.062 283.677 m
+272 272
+249.696 215.169 c
+</path>
+<path layer="beta" stroke="black">
+256 336 m
+256 320 l
+400 320 l
+400 336 l
+h
+</path>
+<path stroke="black">
+288 336 m
+288 320 l
+256 320 l
+256 336 l
+h
+</path>
+<path stroke="black">
+400 336 m
+400 320 l
+368 320 l
+368 336 l
+h
+</path>
+<text layer="Tree1_size_a" matrix="1 0 0 1 -12 4" transformations="translations" pos="384 272" stroke="black" type="label" width="108.787" height="7.49" depth="2.49" valign="baseline" style="math">\mathtt{size}(A) = \mathtt{size}(A&apos;s\ left) \newline</text>
+<text matrix="1 0 0 1 28 -32" transformations="translations" pos="352 296" stroke="black" type="label" width="91.158" height="7.49" depth="2.49" valign="baseline" style="math">+ \mathtt{size}(A&apos;s\ right) + 1
+</text>
+<path matrix="1 0 0 1 -56 -32" stroke="black">
+16 0 0 16 408 304 e
+</path>
+<path layer="Tree1_Node_a" matrix="1 0 0 1 -56 -32" stroke="black">
+16 0 0 16 408 304 e
+</path>
+<text layer="Tree1_size_a_sub" matrix="1 0 0 1 -12 4" transformations="translations" pos="384 272" stroke="black" type="label" width="84.733" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{size}(A) = \mathtt{size}(B)</text>
+<text matrix="1 0 0 1 28 -32" transformations="translations" pos="352 296" stroke="black" type="label" width="61.136" height="7.473" depth="2.49" valign="baseline" style="math">+ \mathtt{size}(C) + 1
+</text>
+<text layer="Tree1_size_b_subbed" matrix="1 0 0 1 -12 4" transformations="translations" pos="384 272" stroke="black" type="label" width="158.11" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{size}(A) = (\mathtt{size}(D) + \mathtt{size}(E) + 1)</text>
+<text matrix="1 0 0 1 28 -32" transformations="translations" pos="352 296" stroke="black" type="label" width="61.136" height="7.473" depth="2.49" valign="baseline" style="math">+ \mathtt{size}(C) + 1
+</text>
+<text layer="Tree1_size_c_subbed" matrix="1 0 0 1 -12 4" transformations="translations" pos="384 272" stroke="black" type="label" width="158.11" height="7.473" depth="2.49" valign="baseline" style="math">\mathtt{size}(A) = (\mathtt{size}(D) + \mathtt{size}(E) + 1)</text>
+<text matrix="1 0 0 1 28 -32" transformations="translations" pos="352 296" stroke="black" type="label" width="134.171" height="7.473" depth="2.49" valign="baseline" style="math">+ (\mathtt{size}(F) + \mathtt{size}(G) + 1)+ 1
+</text>
 </page>
 </ipe>
